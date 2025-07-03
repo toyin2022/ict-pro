@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/mobileStyles.css" />
+    <link rel="stylesheet" href="styles/themeToggle.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">
+        <p class="logoText"><a href="./index.html">CodeHub</a></p>
+      </div>
+      <ul class="navlist">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a style="display: flex; gap: 3px" href="#"
+            >Socials
+            <img
+              width="20px"
+              src="assets/icons/dropdown.svg"
+              alt="dropdown icon"
+            />
+          </a>
+          <ul class="dropdown-content">
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/github.svg"
+                  alt="github icon"
+                />
+                <span>Github</span>
+              </a>
+            </li>
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/instagram.svg"
+                  alt="Instagram icon"
+                />
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/linkedin.svg"
+                  alt="linkedin icon"
+                />
+                <span>Linkedin</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button id="theme-toggle" data-tooltip="Toggle Theme">
+        <img id="theme-icon" src="/assets/icons/moon.svg" alt="Theme Icon" />
+      </button>
+      <div class="hambugger">
+        <img src="assets/icons/menu.svg" width="20px" alt="menu" />
+      </div>
+      <div class="hamburger-menu">
+        <img
+          src="assets/icons/close.svg"
+          width="30px"
+          class="close-menu"
+          alt="close icon"
+        />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li style="display: flex; gap: 10px">
+            <a href="#"
+              ><img src="assets/icons/github.svg" alt="github" width="30px"
+            /></a>
+            <a href="#"
+              ><img src="assets/icons/instagram.svg" alt="github" width="30px"
+            /></a>
+            <a href="#"
+              ><img src="assets/icons/linkedin.svg" alt="github" width="30px"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Top -->
+    <section class="top-banner">
+      <div class="top-banner-container">
+        <h1 class="top-banner-heading">Our projects</h1>
+        <p class="top-banner-content">
+          Technology is constantly changing, and we're here to help you stay
+          ahead. Our comprehensive IT services and support are designed to help
+          you leverage technology to boost your bottom line. Learn more about
+          how we can help you.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services-section">
+      <div class="services-container">
+        <header class="services-header">
+          <div class="services-heading-group">
+            <div class="blue-line"></div>
+            <h3 class="section-subtitle">Our Services</h3>
+          </div>
+          <h2 class="section-title">
+            Comprehensive technology solutions and support
+          </h2>
+        </header>
+
+        <div class="services-grid">
+          <!-- Repeat this block for each service -->
+          <div class="service-card">
+            <h4>IT Support</h4>
+            <p>
+              Fast, reliable support to ensure minimal downtime and maximum
+              productivity.
+            </p>
+            <span class="service-price">$299/month</span>
+            <a href="/services/it-support" class="service-link">Learn more</a>
+          </div>
+
+          <div class="service-card">
+            <h4>Technology Consulting</h4>
+            <p>
+              Expert advice to help you leverage technology to drive growth and
+              streamline operations.
+            </p>
+            <span class="service-price">$499/month</span>
+            <a href="/services/technology-consulting" class="service-link"
+              >Learn more</a
+            >
+          </div>
+
+          <div class="service-card">
+            <h4>Software Development</h4>
+            <p>
+              Custom software solutions to streamline processes and enhance
+              productivity.
+            </p>
+            <span class="service-price">$199/month</span>
+            <a href="/services/software-development" class="service-link"
+              >Learn more</a
+            >
+          </div>
+
+          <div class="service-card">
+            <h4>Network Management</h4>
+            <p>
+              Comprehensive management services to ensure your network is always
+              running smoothly and securely.
+            </p>
+            <span class="service-price">$249/month</span>
+            <a href="/services/network-management" class="service-link"
+              >Learn more</a
+            >
+          </div>
+
+          <div class="service-card">
+            <h4>Cloud Computing</h4>
+            <p>
+              Helping you navigate the complex landscape of cloud computing to
+              find the right solutions for your business.
+            </p>
+            <span class="service-price">$375/month</span>
+            <a href="/services/cloud-computing" class="service-link"
+              >Learn more</a
+            >
+          </div>
+
+          <div class="service-card">
+            <h4>Web & Mobile App Development</h4>
+            <p>
+              Customized web and mobile app solutions to help you reach your
+              target audience and enhance engagement.
+            </p>
+            <span class="service-price">$205/month</span>
+            <a href="/services/web-mobile-app-development" class="service-link"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <div class="project" id="projects">
+      <div class="project-container">
+        <div class="project-top">
+          <div class="proj-top-left">
+            <p class="proj-title">OUR PROJECTS</p>
+            <p class="proj-title2">CASE STUDIES</p>
+          </div>
+        </div>
+        <div class="project-bottom">
+          <div class="project-cards">
+            <div class="proj-card">
+              <div class="proj-card-img">
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration="500"
+                  src="assets/images/computer.png"
+                  alt=""
+                />
+              </div>
+              <div class="proj-card-info">
+                <h3>eCommerce Platform</h3>
+                <p>
+                  Developed a scalable eCommerce platform for a leading
+                  retailer, integrating payment gateways and real-time
+                  analytics.
+                </p>
+                <div class="proj-card-links">
+                  <a href="#"
+                    ><img src="assets/icons/link.svg" alt="" width="20px"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/icons/github.svg" alt="" width="20px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-card-img">
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration="500"
+                  src="assets/images/app-development.png"
+                  alt=""
+                />
+              </div>
+              <div class="proj-card-info">
+                <h3>Mobile Banking App</h3>
+                <p>
+                  Created a secure and user-friendly mobile banking app for a
+                  financial institution, supporting thousands of daily users.
+                </p>
+                <div class="proj-card-links">
+                  <a href="#"
+                    ><img src="assets/icons/link.svg" alt="" width="20px"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/icons/github.svg" alt="" width="20px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-card-img">
+                <img
+                  data-aos="fade-left"
+                  data-aos-duration="500"
+                  src="assets/images/figma.png"
+                  alt=""
+                />
+              </div>
+              <div class="proj-card-info">
+                <h3>Healthcare Portal</h3>
+                <p>
+                  Built a cloud-based healthcare portal for patient management,
+                  appointment scheduling, and telemedicine services.
+                </p>
+                <div class="proj-card-links">
+                  <a href="#"
+                    ><img src="assets/icons/link.svg" alt="" width="20px"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/icons/github.svg" alt="" width="20px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="get-started">
+      <div class="get-started-container">
+        <p class="subtitle">Let's get started</p>
+        <h2 class="heading">Leverage technology for your business success</h2>
+        <p class="description">
+          Don't let technology hold you back. Partner with CodeHub to leverage
+          technology and drive your business success.
+        </p>
+        <div>
+          <a href="#" class="btn">Free consultation</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Subscribe Section -->
+        <section class="footer-subscribe">
+          <h2 class="subscribe-heading">
+            Comprehensive technology solutions and support for businesses and
+            individuals
+          </h2>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Email" />
+            <a href="#" class="btn">Subscribe</a>
+          </div>
+        </section>
+
+        <!-- Links and Hours -->
+        <section class="footer-bottom">
+          <div class="footer-column">
+            <h3>CodeHub</h3>
+            <ul>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Our Process</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Operational work hours</h3>
+            <div class="work-hours">
+              <div><span>Mon - Wed</span><span>: 9AM - 4PM</span></div>
+              <div class="bordered">
+                <span>Thur - Fri</span><span>: 9AM - 5PM</span>
+              </div>
+              <div><span>Weekend</span><span>: Closed</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Social Icons -->
+        <section class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+          </div>
+        </section>
+      </div>
+      <p style="text-align: center">
+        &copy; 2025 CodeHub. All rights reserved.
+      </p>
+    </footer>
+    <!-- JAVASCRIPT  -->
+    <script src="javascript/script.js"></script>
+    <script src="javascript/themeToggle.js"></script>
+    <!-- ANIMATE ON SCROLL  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

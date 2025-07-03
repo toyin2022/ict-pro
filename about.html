@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/mobileStyles.css" />
+    <link rel="stylesheet" href="styles/themeToggle.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">
+        <p class="logoText"><a href="./index.html">CodeHub</a></p>
+      </div>
+      <ul class="navlist">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a style="display: flex; gap: 3px" href="#"
+            >Socials
+            <img
+              width="20px"
+              src="assets/icons/dropdown.svg"
+              alt="dropdown icon"
+            />
+          </a>
+          <ul class="dropdown-content">
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/github.svg"
+                  alt="github icon"
+                />
+                <span>Github</span>
+              </a>
+            </li>
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/instagram.svg"
+                  alt="Instagram icon"
+                />
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/linkedin.svg"
+                  alt="linkedin icon"
+                />
+                <span>Linkedin</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button id="theme-toggle" data-tooltip="Toggle Theme">
+        <img id="theme-icon" src="/assets/icons/moon.svg" alt="Theme Icon" />
+      </button>
+      <div class="hambugger">
+        <img src="assets/icons/menu.svg" width="20px" alt="menu" />
+      </div>
+      <div class="hamburger-menu">
+        <img
+          src="assets/icons/close.svg"
+          width="30px"
+          class="close-menu"
+          alt="close icon"
+        />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li style="display: flex; gap: 10px">
+            <a href="#"
+              ><img src="assets/icons/github.svg" alt="github" width="30px"
+            /></a>
+            <a href="#"
+              ><img src="assets/icons/instagram.svg" alt="github" width="30px"
+            /></a>
+            <a href="#"
+              ><img src="assets/icons/linkedin.svg" alt="github" width="30px"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Top -->
+    <section class="top-banner">
+      <div class="top-banner-container">
+        <h1 class="top-banner-heading">About us</h1>
+        <p class="top-banner-content">
+          Technology is constantly changing, and we're here to help you stay
+          ahead. Our comprehensive IT services and support are designed to help
+          you leverage technology to boost your bottom line. Learn more about
+          how we can help you.
+        </p>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about-section">
+      <div class="about-content">
+        <!-- Left Image -->
+        <div class="about-image">
+          <img src="./assets/images/computer.png" alt="About Us" />
+        </div>
+
+        <!-- Right Text and Progress Bars -->
+        <div class="about-text">
+          <p class="about-label">About Us</p>
+          <h2 class="about-heading">Your partner in technology</h2>
+
+          <div class="progress-group">
+            <p class="progress-label">Reliable IT support</p>
+            <div class="progress-bar"><div style="width: 80%"></div></div>
+          </div>
+          <div class="progress-group">
+            <p class="progress-label">Expert technology consulting</p>
+            <div class="progress-bar"><div style="width: 94%"></div></div>
+          </div>
+          <div class="progress-group">
+            <p class="progress-label">Custom software development</p>
+            <div class="progress-bar"><div style="width: 87%"></div></div>
+          </div>
+          <div class="progress-group">
+            <p class="progress-label">Proven track record of success</p>
+            <div class="progress-bar"><div style="width: 98%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vision + Mission -->
+      <div class="vision-mission">
+        <!-- Vision -->
+        <div class="vision">
+          <h3>Our Vision</h3>
+          <p>
+            Our vision is to be the leading provider of technology solutions and
+            support that help businesses and individuals succeed in the digital
+            age.
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+
+        <!-- Mission -->
+        <div class="mission">
+          <h3>Our Mission</h3>
+          <div class="mission-grid">
+            <div class="mission-item">
+              <div class="icon-box">📈</div>
+              <p>Empowering businesses through technology</p>
+            </div>
+            <div class="mission-item">
+              <div class="icon-box">📊</div>
+              <p>Streamlining processes</p>
+            </div>
+            <div class="mission-item">
+              <div class="icon-box">🚩</div>
+              <p>Enhancing efficiency</p>
+            </div>
+            <div class="mission-item">
+              <div class="icon-box">🖥️</div>
+              <p>Driving growth</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <div class="about" id="about">
+      <div class="about-container">
+        <div class="about-left">
+          <div class="hello">
+            <p>About CodeHub</p>
+          </div>
+          <div class="about-title">
+            <h1>Who We Are</h1>
+          </div>
+          <div class="about-desc">
+            <p>
+              At CodeHub, we are passionate about building digital solutions
+              that drive business growth. Our team of experienced developers,
+              designers, and strategists work collaboratively to deliver custom
+              software tailored to your needs. From startups to enterprises, we
+              empower organizations to succeed in the digital era.
+            </p>
+          </div>
+          <div class="counter-up">
+            <div class="count-cont">
+              <div class="count-left">
+                <p class="count" data-target="100">100+</p>
+              </div>
+              <p>Projects Delivered</p>
+            </div>
+            <div class="count-cont">
+              <div class="count-left">
+                <p class="count" data-target="50">50+</p>
+              </div>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+          <div
+            class="contact-button"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <a href="#contact">Contact Us</a>
+          </div>
+        </div>
+        <div class="about-right">
+          <p class="abt-right-title">Our Expertise</p>
+          <div class="what-i-do">
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-right"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/computer.png"
+                alt=""
+              />
+              <p>Web Development</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-down"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/app-development.png"
+                alt=""
+              />
+              <p>Mobile Apps</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-left"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/app.png"
+                alt=""
+              />
+              <p>Cloud Solutions</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-right"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/figma.png"
+                alt=""
+              />
+              <p>UI/UX Design</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-up"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/graphic-designer.png"
+                alt=""
+              />
+              <p>Branding</p>
+            </div>
+            <div class="do">
+              <div class="do-overlay"></div>
+              <img
+                data-aos="fade-left"
+                data-aos-duration="500"
+                width="70px"
+                src="assets/images/montage.png"
+                alt=""
+              />
+              <p>Digital Marketing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM CARDS SECTION -->
+    <section class="team-cards-section">
+      <h2 class="team-cards-title">Our Team</h2>
+      <div class="team-cards">
+        <div class="team-card">
+          <h3>OLAYEMI MARVELOUS SEBOLATAN</h3>
+          <p><strong>ID:</strong> LCU/UG/23/27939</p>
+          <p><strong>Department:</strong> COMPUTER SCIENCE</p>
+        </div>
+        <div class="team-card">
+          <h3>Adeyinka Salam Oluwashina</h3>
+          <p><strong>ID:</strong> LCU/UG/23/25305</p>
+          <p><strong>Department:</strong> Computer Science and Electronics</p>
+        </div>
+        <div class="team-card">
+          <h3>Oguntade Azeem Oladosu</h3>
+          <p><strong>ID:</strong> LCU/UG/23/26951</p>
+          <p><strong>Department:</strong> Cybersecurity</p>
+        </div>
+        <div class="team-card">
+          <h3>Samotu Hammed Aderemi</h3>
+          <p><strong>ID:</strong> LCU/PT/23/0685</p>
+          <p><strong>Department:</strong> Computer Science</p>
+        </div>
+        <div class="team-card">
+          <h3>Omotosho Emmanuel Ifeoluwa</h3>
+          <p><strong>ID:</strong> LCU/UG/23/27738</p>
+          <p><strong>Department:</strong> Computer Science</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="get-started">
+      <div class="get-started-container">
+        <p class="subtitle">Let's get started</p>
+        <h2 class="heading">Leverage technology for your business success</h2>
+        <p class="description">
+          Don't let technology hold you back. Partner with CodeHub to leverage
+          technology and drive your business success.
+        </p>
+        <div>
+          <a href="#" class="btn">Free consultation</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Subscribe Section -->
+        <section class="footer-subscribe">
+          <h2 class="subscribe-heading">
+            Comprehensive technology solutions and support for businesses and
+            individuals
+          </h2>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Email" />
+            <a href="#" class="btn">Subscribe</a>
+          </div>
+        </section>
+
+        <!-- Links and Hours -->
+        <section class="footer-bottom">
+          <div class="footer-column">
+            <h3>CodeHub</h3>
+            <ul>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Our Process</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Operational work hours</h3>
+            <div class="work-hours">
+              <div><span>Mon - Wed</span><span>: 9AM - 4PM</span></div>
+              <div class="bordered">
+                <span>Thur - Fri</span><span>: 9AM - 5PM</span>
+              </div>
+              <div><span>Weekend</span><span>: Closed</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Social Icons -->
+        <section class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+          </div>
+        </section>
+      </div>
+      <p style="text-align: center">
+        &copy; 2025 CodeHub. All rights reserved.
+      </p>
+    </footer>
+    <!-- JAVASCRIPT  -->
+    <script src="javascript/script.js"></script>
+    <script src="javascript/themeToggle.js"></script>
+    <!-- ANIMATE ON SCROLL  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

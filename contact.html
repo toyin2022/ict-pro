@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/mobileStyles.css" />
+    <link rel="stylesheet" href="styles/themeToggle.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">
+        <p class="logoText"><a href="./index.html">CodeHub</a></p>
+      </div>
+      <ul class="navlist">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a style="display: flex; gap: 3px" href="#"
+            >Socials
+            <img
+              width="20px"
+              src="assets/icons/dropdown.svg"
+              alt="dropdown icon"
+            />
+          </a>
+          <ul class="dropdown-content">
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/github.svg"
+                  alt="github icon"
+                />
+                <span>Github</span>
+              </a>
+            </li>
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/instagram.svg"
+                  alt="Instagram icon"
+                />
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="social-links">
+              <a class="soc-link" target="_blank" href="#"
+                ><img
+                  class="social-links-icon"
+                  src="assets/icons/linkedin.svg"
+                  alt="linkedin icon"
+                />
+                <span>Linkedin</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button id="theme-toggle" data-tooltip="Toggle Theme">
+        <img id="theme-icon" src="/assets/icons/moon.svg" alt="Theme Icon" />
+      </button>
+      <div class="hambugger">
+        <img src="assets/icons/menu.svg" width="20px" alt="menu" />
+      </div>
+      <div class="hamburger-menu">
+        <img
+          src="assets/icons/close.svg"
+          width="30px"
+          class="close-menu"
+          alt="close icon"
+        />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li style="display: flex; gap: 10px">
+            <a href="#"
+              ><img src="assets/icons/github.svg" alt="github" width="30px"
+            /></a>
+            <a href="#"
+              ><img src="assets/icons/instagram.svg" alt="github" width="30px"
+            /></a>
+            <a href="#"
+              ><img src="assets/icons/linkedin.svg" alt="github" width="30px"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          <h2>Contact CodeHub</h2>
+          <p>
+            Ready to start your next project or have questions? Fill out the
+            form below or reach out to us directly.
+          </p>
+        </div>
+        <div class="contact-content">
+          <!-- Contact Form -->
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">Send Message</button>
+          </form>
+
+          <!-- Contact Details -->
+          <div class="contact-details">
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:info@codehub.com">info@codehub.com</a>
+            </p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+1234567890">+1 234 567 890</a>
+            </p>
+            <p><strong>Location:</strong> Lead city University</p>
+            <div class="cont-links">
+              <a class="cont-link" href="#" target="_blank">Twitter</a>
+              <a class="cont-link" href="#" target="_blank">LinkedIn</a>
+              <a class="cont-link" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="get-started">
+      <div class="get-started-container">
+        <p class="subtitle">Let's get started</p>
+        <h2 class="heading">Leverage technology for your business success</h2>
+        <p class="description">
+          Don't let technology hold you back. Partner with CodeHub to leverage
+          technology and drive your business success.
+        </p>
+        <div>
+          <a href="#" class="btn">Free consultation</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Subscribe Section -->
+        <section class="footer-subscribe">
+          <h2 class="subscribe-heading">
+            Comprehensive technology solutions and support for businesses and
+            individuals
+          </h2>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Email" />
+            <a href="#" class="btn">Subscribe</a>
+          </div>
+        </section>
+
+        <!-- Links and Hours -->
+        <section class="footer-bottom">
+          <div class="footer-column">
+            <h3>CodeHub</h3>
+            <ul>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Our Process</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Operational work hours</h3>
+            <div class="work-hours">
+              <div><span>Mon - Wed</span><span>: 9AM - 4PM</span></div>
+              <div class="bordered">
+                <span>Thur - Fri</span><span>: 9AM - 5PM</span>
+              </div>
+              <div><span>Weekend</span><span>: Closed</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Social Icons -->
+        <section class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+          </div>
+        </section>
+      </div>
+      <p style="text-align: center">
+        &copy; 2025 CodeHub. All rights reserved.
+      </p>
+    </footer>
+    <!-- JAVASCRIPT  -->
+    <script src="javascript/script.js"></script>
+    <script src="javascript/themeToggle.js"></script>
+    <!-- ANIMATE ON SCROLL  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      // Contact form submission alert
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Thank you for contacting CodeHub! Your message has been received."
+          );
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
